@@ -20,6 +20,6 @@ submit_simulation ()
    
 }
 
-for seed in 1 3 4;do
+for seed in 1 2 3 4;do
     submit_simulation $seed
 done
